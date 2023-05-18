@@ -14,86 +14,98 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="logo"
-          ><span class="logo-begining">WEB</span>STUDIO</a
+    <!-- Header -->
+    <header class="header">
+      <!-- Navigation -->
+      <nav class="navigation">
+        <!-- Logo -->
+        <a href="./index.html" class="link logo"
+          >Web<span class="logo-ending">Studio</span></a
         >
-        <ul>
-          <li><a href="" class="nav">Studio</a></li>
-          <li><a href="./portfolio.html" class="nav">Portfolio</a></li>
-          <li><a href="" class="nav">Contacts</a></li>
+        <ul class="list">
+          <li><a href="" class="link branches">Studio</a></li>
+          <li>
+            <a href="./portfolio.html" class="link branches">Portfolio</a>
+          </li>
+          <li><a href="" class="link branches">Contacts</a></li>
         </ul>
       </nav>
-      <address>
-        <ul>
+      <!-- Address -->
+      <address class="address">
+        <ul class="list">
           <li>
-            <a href="mailto:info@devstudio.com" class="contacts"
+            <a href="mailto:info@devstudio.com" class="link contacts"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+110001111111" class="contacts">+11 (000) 111-11-11</a>
+            <a href="tel:+110001111111" class="link contacts"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
     </header>
+    <!-- Main -->
     <main>
+      <!-- Hero -->
       <section class="hero">
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button" class="button">Order Service</button>
+        <h1 class="quote">Effective Solutions for Your Business</h1>
+        <button type="button" class="button order-button">Order Service</button>
       </section>
-      <section class="about-us">
-        <h2>About Us</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+      <!-- Qualities -->
+      <section class="qualities">
+        <h2 hidden>Qualities</h2>
+        <ul class="list our-qualities">
+          <li class="qualitie">
+            <h3 class="caption">Strategy</h3>
+            <p class="text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="qualitie">
+            <h3 class="caption">Punctuality</h3>
+            <p class="text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="qualitie">
+            <h3 class="caption">Diligence</h3>
+            <p class="text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="qualitie">
+            <h3 class="caption">Technologies</h3>
+            <p class="text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-      <section class="our-work">
-        <h2>What are we doing</h2>
-        <ul>
-          <li>
+      <!-- Types of work -->
+      <section class="work">
+        <h2 class="section-heading">What are we doing</h2>
+        <ul class="list types-of-work">
+          <li class="work-example">
             <img
               src="./images/our_projects_1.jpg"
               alt="Project 1"
               width="360"
             />
           </li>
-          <li>
+          <li class="work-example">
             <img
               src="./images/our_projects_2.jpg"
               alt="Project 2"
               width="360"
             />
           </li>
-          <li>
+          <li class="work-example">
             <img
               src="./images/our_projects_3.jpg"
               alt="Project 3"
@@ -102,37 +114,40 @@
           </li>
         </ul>
       </section>
-      <section class="our-team">
-        <h2>Our Team</h2>
-        <ul class="team-cards">
-          <li class="team-card">
+      <!-- Team -->
+      <section class="team">
+        <h2 class="section-heading">Our Team</h2>
+        <ul class="list team-members">
+          <li class="team-member">
             <img src="./images/mark.jpg" alt="Mark Guerrero" width="264" />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="caption">Mark Guerrero</h3>
+            <p class="text">Product Designer</p>
           </li>
-          <li class="team-card">
+          <li class="team-member">
             <img src="./images/tom.jpg" alt="Tom Ford" width="264" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="caption">Tom Ford</h3>
+            <p class="text">Frontend Developer</p>
           </li>
-          <li class="team-card">
+          <li class="team-member">
             <img src="./images/camila.jpg" alt="Camila Garcia" width="264" />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="caption">Camila Garcia</h3>
+            <p class="text">Marketing</p>
           </li>
-          <li class="team-card">
+          <li class="team-member">
             <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264" />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="caption">Daniel Wilson</h3>
+            <p class="text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="./index.html" class="logo-footer"
-        ><span class="logo-begining">WEB</span>STUDIO</a
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- Logo -->
+      <a href="./index.html" class="link logo"
+        >Web<span class="logo-ending-footer">Studio</span></a
       >
-      <p class="footer-content">
+      <p class="text-footer">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
