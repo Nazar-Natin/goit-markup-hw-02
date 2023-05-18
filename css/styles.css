@@ -40,7 +40,7 @@ body {
 }
 .section-heading {
     color: #2E2F42;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -72,10 +72,12 @@ body {
 .branches:hover, .branches:focus {
     color: #404BBF;
 }
+.address {
+    font-style: normal
+}
 .contacts {
     color: #434455;
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -122,7 +124,7 @@ body {
 }
 .text-footer {
     color: #F4F4FD;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -133,11 +135,12 @@ body {
 .filter-button {
     background: #F4F4FD;
     color: #4D5AE5;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .filter-button:hover, .filter-button:focus {
     background: #404BBF;
